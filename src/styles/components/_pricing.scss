@@ -1,6 +1,9 @@
 /**********
   13. Pricing Page and Section Styles
 **********/
+@use "../variables" as *;
+@use "../mixins" as *;
+
 .pricing,
 .pricing-two {
   position: relative;

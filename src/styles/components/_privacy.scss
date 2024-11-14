@@ -1,3 +1,6 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
 /* Privacy Page */
 
 .privacy {
@@ -127,7 +130,7 @@
 				.card-text p {
 					line-height: 29.7px;
 					color: $color-text-light;
-					font-size: $base_font-size * 1.1;
+					font-size: $base_font_size * 1.1;
 					font-weight: 500;
 					margin-bottom: $base-margin * 2.5;
 					padding-left: $base-padding * 1.5;
@@ -145,7 +148,7 @@
 						position: relative;
 						line-height: 29.7px;
 						color: $color-text-light;
-						font-size: $base_font-size * 1.1;
+						font-size: $base_font_size * 1.1;
 						font-weight: 500;
 						margin-bottom: $base-margin * 1.25;
 					}

@@ -1,6 +1,6 @@
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
-PROJECT:	JACKCREATIVE
+PROJECT:	NEW FANS EDUCATION
 -------------------------------------------------------------------*/
 /* ====== index =====
 1.  Default Styles
@@ -23,37 +23,35 @@ PROJECT:	JACKCREATIVE
 18. FAQ Section Styles
 19. Contact Form Page Styles
 20. Counter Up Section Styles
-21.Services Section Styles
-22.Sing-up Section Styles
-23.TeamSection Styles
-
-
+21. Services Section Styles
+22. Sing-up Section Styles
+23. Team Section Styles
 ===================== */
 
-@import "variables";
-@import "mixins";
-@import "root";
-@import "buttons";
-@import "container";
-@import "spacer";
-// //Theme Components
-@import "components/navbar";
-@import "components/hero";
-@import "components/about";
-@import "components/feature";
-@import "components/access";
-@import "components/team";
-@import "components/testimonial";
-@import "components/galery";
-@import "components/works";
-@import "components/pricing";
-@import "components/privacy";
-@import "components/cta";
-@import "components/footer";
-@import "components/blog";
-@import "components/services";
-@import "components/video";
-@import "components/faq";
-@import "components/contact-form";
-@import "components/sing-up";
-@import "components/counter-up";
+@use "variables" as *;
+@use "mixins" as *;
+@use "root" as *;
+@use "buttons" as *;
+@use "container" as *;
+@use "spacer" as *;
+
+// Theme Components
+@use "components/navbar" as *;
+@use "components/hero" as *;
+@use "components/cta" as *;
+@use "components/about" as *;
+@use "components/feature" as *;
+@use "components/access" as *;
+@use "components/testimonial" as *;
+@use "components/video" as *;
+@use "components/pricing" as *;
+@use "components/works" as *;
+@use "components/footer" as *;
+@use "components/blog" as *;
+@use "components/galery" as *;
+@use "components/faq" as *;
+@use "components/contact-form" as *;
+@use "components/counter-up" as *;
+@use "components/services" as *;
+@use "components/sing-up" as *;
+@use "components/team" as *;

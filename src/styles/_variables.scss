@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Font Variables
 $font-primary: 'Sora', sans-serif;
 $font-secondary: 'Space Grotesk', sans-serif;
@@ -10,31 +12,34 @@ $extbold-font-weight: 800;
 $base-letter-spacing: 0.5px;
 
 //Colors Variables
-
 $color-white: #fff;
 $color-gray: #fcfcfc;
 $color-cyan: #808080;
 $color-cyan-dark: #f3f3f3;
 $color-cyan-light: #5f5f5f;
+
 //overwritten by site.json -> theme -> primary_color if set
 $color-primary: #e53b2a;
 $color-primary-light: #e6ebf4;
-$color-primary-dark: mix($color-primary, $color-white, 12%);
-$color-gray-light: mix($color-primary, $color-white, 2%);
-$color-gray-dark: mix($color-primary, $color-white, 6%);
+$color-primary-dark: color.mix($color-primary, $color-white, 12%);
+$color-gray-light: color.mix($color-primary, $color-white, 2%);
+$color-gray-dark: color.mix($color-primary, $color-white, 6%);
+
 //overwritten by site.json -> theme -> secondary_color if set
 $color-secondary: #fffbf3;
-$color-secondary-light: mix($color-primary, $color-white, 16%);
+$color-secondary-light: color.mix($color-primary, $color-white, 16%);
 $color-secondary-dark: #f7f8fa;
+
 //overwritten by site.json -> theme -> anchor_color if set
 $color-anchor: #ffba08;
-$color-anchor-dark: mix($color-anchor, $color-white, 30%);
+$color-anchor-dark: color.mix($color-anchor, $color-white, 30%);
+
 //overwritten by site.json -> theme -> background_effects_color if set
 $color-background-effects: #faaa8f;
 
 $color-header: #000;
-$color-header-light: mix($color-anchor, $color-white, 4%);
-$color-header-dark: mix($color-anchor, $color-white, 12%);
+$color-header-light: color.mix($color-anchor, $color-white, 4%);
+$color-header-dark: color.mix($color-anchor, $color-white, 12%);
 $color-text: #282828;
 $color-deactive: #ababab;
 $color-text-dark: #dddddd;

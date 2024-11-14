@@ -1,3 +1,6 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
 .contact {
   padding-bottom: $base-padding * 9.4;
 

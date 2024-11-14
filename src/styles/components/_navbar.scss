@@ -1,6 +1,9 @@
 /********** 
   5. Navbar Styles
 **********/
+@use "../variables" as *;
+@use "../mixins" as *;
+
 .navbar {
   position: relative;
   display: flex;

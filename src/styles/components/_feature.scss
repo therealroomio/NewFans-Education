@@ -1,6 +1,9 @@
 /********** 
   9. Feature Page and Section Styles
 **********/
+@use "../variables" as *;
+@use "../mixins" as *;
+
 .feature,
 .feature-two {
   position: relative;

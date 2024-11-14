@@ -2,6 +2,8 @@
  1. Default  Styles 
 **********/
 @use "sass:math";
+@use "variables" as *;
+@use "mixins" as *;
 
 
 /* sora-regular - latin */

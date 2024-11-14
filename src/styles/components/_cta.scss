@@ -2,6 +2,9 @@
  07. cta Page and Section Styles
 **********/
 
+@use "../variables" as *;
+@use "../mixins" as *;
+
 .cta {
   text-align: center;
   background: $color-header;

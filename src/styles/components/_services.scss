@@ -2,6 +2,9 @@
  21.  Services page & section
 **********/
 
+@use "../variables" as *;
+@use "../mixins" as *;
+
 .services {
   padding-bottom: $base-padding * 4.5;
   @include media-breakpoint-down-xl {
